@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }}</title>
+    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src='{{ site.github.url }}/js/jquery.scrollNav.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Inconsolata&subset=latin,latin-ext'>
+    <link rel='stylesheet' type='text/css' href='{{ site.github.url }}/css/styles.css'/>
+    <link rel='stylesheet' type='text/css' href='{{ site.github.url }}/css/pygments/solarized-light.css'/>
+</head>
+
+<body>{{ content }}</body>
+
+<script>
+    $('body').scrollNav({
+        sections:     'h1, h2',
+        subSections:  'h3',
+        sectionElem:  'div',
+        showHeadline:  false,
+        speed:         100,
+        scrollOffset:  10,
+    });
+</script>
+
+</html>

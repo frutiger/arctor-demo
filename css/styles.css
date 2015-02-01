@@ -1,0 +1,114 @@
+/* reset */
+
+body, ol, ul {
+    margin: 0;
+}
+
+/* nav/body positioning */
+
+body {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    left: 200px;
+    width: 600px;
+}
+
+nav {
+    position: fixed;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 100%;
+}
+
+/* nav spacing */
+
+.scroll-nav ol {
+    padding: 12px;
+}
+
+li {
+    padding: 4px 0;
+}
+
+ol, ul {
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+}
+
+.scroll-nav__sub-list {
+    display: none;
+    padding-left: 12px;
+}
+
+.active .scroll-nav__sub-list {
+    display: block;
+}
+
+/* code */
+
+pre {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    border-left-width: 3px;
+    border-left-color: #657b83;  /* base00 */
+    border-left-style: solid;
+}
+
+/* color */
+
+html {
+    background-color: #eee8d5;   /* base2  */
+}
+
+body {
+    background-color: #fdf6e3;   /* base3  */
+    color: #657b83;              /* base00 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #268bd2;              /* blue   */
+}
+
+nav a {
+    color: #93a1a1;              /* base1 */
+}
+
+.scroll-nav__item.active > a, .scroll-nav__sub-item.active > a {
+    color: #657b83;              /* base00 */
+}
+
+nav a:hover {
+    color: #268bd2;              /* blue   */
+}
+
+/* type */
+
+* {
+    font-family: Lato, Arial, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", Georgia, serif;
+}
+
+pre * {
+    font-family: Inconsolata, monospace;
+    font-size: 12px;
+}
+
+nav {
+    font-weight: bold;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
