@@ -24,25 +24,28 @@ nav {
 
 /* nav spacing */
 
-.scroll-nav ol {
+.scroll-nav__item {
+    padding-left: 10px;
+}
+
+li.scroll-nav__item:first-child {
+    padding-left: 0;
+}
+
+.scroll-nav__list {
     padding: 12px;
 }
 
 li {
-    padding: 4px 0;
+    padding: 2px 0;
 }
 
-ol, ul {
-    -webkit-padding-start: 0px;
-    -moz-padding-start: 0px;
-}
 
 .scroll-nav__sub-list {
     display: none;
     padding-left: 12px;
 }
-
-.active .scroll-nav__sub-list {
+.active > .scroll-nav__sub-list {
     display: block;
 }
 
