@@ -2,8 +2,6 @@
 title: Arctor Demo
 ---
 
-# Arctor Demo
-
 This page is a demo of the [arctor](https://github.com/frutiger/arctor) theme.
 This theme is primarily designed for use with [GitHub
 Pages](https://pages.github.com/) but ought to work with just
