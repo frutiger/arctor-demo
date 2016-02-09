@@ -12,7 +12,10 @@
     <link rel='stylesheet' type='text/css' href='{{ site.github.url }}/css/pygments/solarized-light.css'/>
 </head>
 
-<body>{{ content }}</body>
+<body>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+</body>
 
 <script>
     $('body').scrollNav({
