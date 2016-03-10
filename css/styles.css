@@ -4,14 +4,20 @@ body, ol, ul {
     margin: 0;
 }
 
+/* page height */
+
+html, body {
+    min-height: 100%;
+}
+
 /* nav/body positioning */
 
 body {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0px 0px 20px 20px;
     left: 200px;
-    width: 600px;
+    width: calc(100% - 220px);
 }
 
 nav {
@@ -20,6 +26,10 @@ nav {
     vertical-align: top;
     width: 200px;
     height: 100%;
+}
+
+body > div {
+    width: 680px;
 }
 
 /* nav spacing */
@@ -100,7 +110,7 @@ nav a:hover {
     color: #dc322f;              /* red     */
 }
 
-code {
+pre {
     background-color: #eee8d5;   /* base2   */
 }
 
