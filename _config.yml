@@ -2,8 +2,6 @@ safe: true
 lsi: false
 source: .
 
-highlighter: pygments
-
 defaults:
   - scope:
       path: ''
