@@ -1,0 +1,148 @@
+/* reset */
+
+body, ol, ul {
+    margin: 0;
+}
+
+/* page height */
+
+html, body {
+    min-height: 100%;
+}
+
+/* nav/body positioning */
+
+body {
+    position: absolute;
+    display: inline-block;
+    padding: 0px 0px 20px 20px;
+    left: 200px;
+    width: calc(100% - 220px);
+}
+
+nav {
+    position: fixed;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 100%;
+}
+
+body > div {
+    width: 680px;
+}
+
+/* nav spacing */
+
+.scroll-nav__item {
+    padding-left: 10px;
+}
+
+li.scroll-nav__item:first-child {
+    padding-left: 0;
+}
+
+.scroll-nav__list {
+    padding: 12px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+
+.scroll-nav__sub-list {
+    display: none;
+    padding-left: 12px;
+}
+.active > .scroll-nav__sub-list {
+    display: block;
+}
+
+/* code */
+
+pre {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    border-left-width: 3px;
+    border-left-color: #657b83;  /* base00  */
+    border-left-style: solid;
+}
+
+code {
+    padding: 3px;
+}
+
+/* color */
+
+html {
+    background-color: #eee8d5;   /* base2   */
+}
+
+body {
+    background-color: #fdf6e3;   /* base3   */
+    color: #657b83;              /* base00  */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #268bd2;              /* blue    */
+}
+
+nav a {
+    color: #93a1a1;              /* base1   */
+}
+
+.scroll-nav__item.active > a, .scroll-nav__sub-item.active > a {
+    color: #657b83;              /* base00  */
+}
+
+a {
+    color: #d33682;              /* magenta */
+}
+
+a:hover {
+    color: #dc322f;              /* red     */
+}
+
+nav a:hover {
+    color: #dc322f;              /* red     */
+}
+
+pre {
+    background-color: #eee8d5;   /* base2   */
+}
+
+/* type */
+
+* {
+    font-family: Lato, Arial, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", Georgia, serif;
+}
+
+code, pre * {
+    font-family: Inconsolata, monospace;
+    font-size: 16px;
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav ol, ul {
+    list-style-type: none;
+}
+
+a {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
